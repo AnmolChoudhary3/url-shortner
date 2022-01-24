@@ -1,0 +1,117 @@
+.form-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.wrapper{
+    width: 95%;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper h1{
+    font-size: 4rem ;
+    color: #05124b;
+    font-family: poppins;
+}
+
+.form-div form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content:space-between ;
+    height: fit-content;
+    width: 100%;
+
+}
+
+.form-div form input{
+    font-size: 1.5rem;
+    padding: 0.3rem 1rem;
+    min-height: 1.5rem;
+    height: 100%;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: white;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    box-shadow: 0px 0px 15px #6374c22d;
+
+
+}
+
+.form-div form input:focus{
+    outline:none;
+}
+
+.form-div form input[type=text]::placeholder{
+    color: rgb(206, 206, 206);
+    
+    
+}
+
+.form-div form button{
+    height: 100%;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0 5px 5px  0;
+    border: none;
+    background-color: #5772F1;
+    color: aliceblue;
+    cursor: pointer;
+    -webkit-border-radius: 0 5px 5px  0;
+    -moz-border-radius: 0 5px 5px  0;
+    -ms-border-radius: 0 5px 5px  0;
+    -o-border-radius: 0 5px 5px  0;
+    transition-duration: 0.2s;
+
+
+}
+
+.form-div form button:hover{
+    background-color: #102dad;
+}
+
+.output{
+    font-size: 1.5rem;
+    padding: 0.5rem 1.2rem;
+    min-height: 1.5rem;
+    height: 100%;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    background-color: #8A92BC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color:white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+    transition-duration: 0.2s;
+
+
+}
+
+/* .output:hover{
+    background-color: #102dad;
+} */
+
+
+.icon{
+    height: 2rem;    
+}
