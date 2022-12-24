@@ -67,7 +67,7 @@ function Main() {
         <div className="form-div">
 
             <div className="wrapper">
-                <h1>URL Shortner</h1>
+                <h1>URL Shortener</h1>
                 <form onSubmit={submitHandler}>
                     <input required placeholder="e.g.  https://www.google.com" type="url" onChange={(e) => setUrl(e.target.value)}/>
                     <button type="submit"><img className='icon' alt='generate' src={scissor} /></button>
